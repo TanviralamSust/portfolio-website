@@ -4,12 +4,7 @@ import BaseLayout from "./components/BaseLayout";
 import { BrowserRouter } from "react-router-dom";
 import Favicon from "react-favicon";
 import Overlay from "./components/Overlay";
-// import fav from "./img/favicon.ico"
 
-// // google analytics
-// import ReactGA from 'react-ga';
-// const TRACKING_ID = "UA-179589074-1"; // tracking id
-// ReactGA.initialize(TRACKING_ID);
 
 export default class App extends React.Component {
 	constructor(props) {

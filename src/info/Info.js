@@ -39,11 +39,6 @@ export const info = {
             label: 'facebook'
         },
         {
-            link: "https://instagram.com/fiercely.lindseyy",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
             link: "https://github.com/TanviralamSust",
             icon: "fa fa-github",
             label: 'github'

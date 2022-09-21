@@ -33,7 +33,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.2rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>page created with &hearts; by <a href={'https://lindseyk.dev'}>Tanvir</a></p>
+                  <p>page created with &hearts; by <a href={'https://github.com/TanviralamSust'}>Tanvir</a></p>
                   <p>&copy; 2022</p>
                </Box>
             </Grid>

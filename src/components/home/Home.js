@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Style from "./Home.module.scss";
 import me from "../../img/self.jpg";
 import classNames from "classnames";
@@ -6,14 +6,8 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function Home() {
-	useEffect(() => {
-		AOS.init();
-		AOS.refresh();
-	}, []);
 
 	return (
 		<Box
